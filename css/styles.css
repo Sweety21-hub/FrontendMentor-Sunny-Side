@@ -1,0 +1,204 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+/* -----------------NavBar------------- */
+
+.nav-link{
+    color:white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    
+}
+
+.nav-item{
+    margin-left: 2rem;
+    padding: 0 4px;
+    background-color: transparent;
+    transition: background-colour 0.5s;
+
+}
+.nav-item:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color:black;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+
+}
+.nav-link:hover{
+    color: white;
+}
+
+.banner{
+    padding: 3%;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-size:cover;
+    
+    background-repeat:no-repeat;
+    
+
+
+}
+.banner-text{
+    font-family: 'Fraunces', serif;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 5.5%;
+    padding-bottom: 20%;
+    
+}
+
+.content{
+    
+    padding: 30% 20% 0 20%;
+}
+
+.body-title{
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 2.5rem;
+    line-height: 40px;
+
+}
+.body-text{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+    font-size: 0.9rem;
+    line-height: 30px;
+    padding-top: 10%;
+    padding-bottom: 0;
+
+}
+.body-link{
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: black;
+    
+    
+
+}
+
+.body-link:hover{
+    color: black;
+    text-decoration: hsl(51, 100%, 49%) underline 4px;
+}
+
+.pink:hover{
+    color: black;
+    text-decoration:  hsl(7, 99%, 70%) underline 4px;
+
+}
+
+.img-content{
+    position: relative;
+    text-align: center;
+    color: hsl(212, 27%, 19%);
+}
+.img-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-heading{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    line-height: 40px;
+    padding-bottom: 5%;
+}
+.img-body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    
+
+}
+
+.testimonials{
+    padding: 10%;
+    text-align: center;
+}
+
+.testimonials h2{
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-size: 1.5rem;
+
+}
+.client-content{
+    padding-top: 5%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.client-img{
+    border-radius: 100%;
+    width: 80px;
+    
+}
+
+.client-text{
+    padding: 15% 5%;
+    color: hsl(232, 10%, 55%);
+}
+
+.client-name{
+
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 1.3rem;
+    padding-bottom: 5%;
+
+}
+
+.desg{
+    color: hsl(210, 4%, 67%);
+    font-size: 0.8rem;
+
+}
+
+footer{
+    background-color: hsl(168, 62%, 74%);
+    text-align: center;
+}
+
+.footer-logo{
+    
+    fill:darkblue;
+    padding: 5% 0 3% 0;
+}
+.footer-menu{
+    padding-bottom: 5%;
+}
+
+.footer-menu a{
+
+    text-decoration: none;
+
+    font-family: 'Barlow', sans-serif;
+    color: hsl(168, 34%, 41%);
+    padding: 0 20px;
+    
+    
+
+}
+
+.footer-menu a:hover{
+    color: white;
+}
+
+.social-media{
+    padding-bottom: 5%;
+}
+.social-media a{
+    padding: 0 10px;
+}
+
+.social-media a img:hover{
+    color: white;
+    text-decoration: white;
+}
